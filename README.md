@@ -19,7 +19,7 @@ Installation
 
 1. Clone the repository:
 
-   git clone https://github.com/Ayisha-Tarannum/-Comprehensive-Automated-Document-Verification-System.git
+   git clone https://github.com/KunuthuruDeepika/Comprehensive-Automated-Document-Verification-System
 
    cd Automated-Document-Verification
 
