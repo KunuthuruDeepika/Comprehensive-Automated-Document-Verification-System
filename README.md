@@ -1,29 +1,53 @@
 
 _________________________________________
-# Comprehensive Automated Document Verification System
+                                      
+| Automated Document Verification System |                                   
+-----------------------------------------
+This project is a platform for verifying official documents using blockchain technology. It helps ensure document integrity and offers a responsive web interface for users.
 
-This project is a **Cloud-Based Intelligent Document Verification System** that automates the validation of official documents using technologies like OCR, Machine Learning, and cloud storage. It's designed to increase the accuracy, speed, and reliability of document verification processes in various sectors such as education, government, and logistics.
 
-## 🔧 Features
-- Upload and scan official documents
-- Optical Character Recognition (OCR)
-- Verification using pre-trained ML models
-- Cloud storage integration
-- Real-time verification reports
+Tech Stack
 
-## 🛠️ Tech Stack
-- Python
-- Flask / Django
-- OpenCV, Tesseract OCR
-- Machine Learning (sklearn, TensorFlow, etc.)
-- Cloud: AWS / Google Cloud / Firebase
-- Git, GitHub
+Frontend: React, Vite
 
-## 🚀 How to Run
-```bash
-git clone https://github.com/KunuthuruDeepika/Comprehensive-Automated-Document-Verification-System.git
-cd Comprehensive-Automated-Document-Verification-System
-pip install -r requirements.txt
-python app.py
+Backend: Node.js
 
+Blockchain: Custom logic
+
+
+Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/KunuthuruDeepika/Comprehensive-Automated-Document-Verification-System
+
+   cd Automated-Document-Verification
+
+
+2. Install dependencies:
+
+   npm install
+
+
+3. Start the servers:
+
+   npm run dev
+
+
+4. Open the app at http://localhost.
+
+
+
+Usage
+
+1. Upload a document.
+
+
+2. Preview it before submission.
+
+
+3. Verify it using blockchain (hash values).
+
+
+4. View the results.
 
