@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #f0f4ff, #d2e3ff);
+  height: 100vh;
+}
+
+/* Container Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
+  min-height: 100vh; /* instead of fixed height */
+  padding-bottom: 100px; /* add room for the button block */
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transform: translateX(-10%);
+}
+
+/* Headings */
+h1, h2 {
+  color: #004285;
+  padding: 10px;
+  text-shadow: 
+    0 0 5px #00fdf8,
+    0 0 10px #0ed98b,
+    0 0 15px #00ff80,
+    0 0 20px #00fdf8;
+}
+
+/* Intro Text */
+.home-container p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* App Container */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 210px;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-buttons li {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-buttons li:hover {
+  background-color: #e6f0ff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgba(0, 66, 133, 0.1);
+}
+
+.nav-buttons li:hover a {
+  color: #004285;
+}
+
+
+/* Traditional Nav (If still used elsewhere) */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0fb7e53c;
+  padding: 10px 0;
+  border-radius: 1em;
+  margin-top: 20px;
+}
+
+nav ul li {
+  background-color: rgb(0, 221, 255);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ededed;
+  font-weight: bold;
+}
+
+/* Forms */
+form {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  background-color: whitesmoke;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: rgba(0, 204, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: #296fb9;
+}
+
+/* List Display (e.g., Document View) */
+ul {
+  list-style-type: none;
+  padding: 20px;
+  gap: 35px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px 20px;
+}
+
+.doc-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+li button:hover {
+  background-color: #004285;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

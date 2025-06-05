@@ -1,0 +1,12 @@
+[
+  {
+    "username": "issuer1",
+    "password": "123",
+    "role": "issuer"
+  },
+  {
+    "username": "verifier1",
+    "password": "456",
+    "role": "verifier"
+  }
+]
